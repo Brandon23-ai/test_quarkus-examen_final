@@ -30,4 +30,12 @@ public class AddressRepo implements IAddressRepo {
         return em.createQuery("SELECT a FROM Address a", Address.class).getResultList();
     }
     
+    @Override
+    public List<Address> findByPersonId(Long personId) {
+        return em.createQuery("SELECT a FROM Address a WHERE a.person.id = :personId", Address.class)
+                .setParameter("personId", personId)
+                .getResultList();
+    }
+
+    
 }

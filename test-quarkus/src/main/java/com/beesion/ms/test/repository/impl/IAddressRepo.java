@@ -11,4 +11,5 @@ import java.util.List;
 public interface IAddressRepo {
     void save(Address address);
     List<Address> findAll();
+    List<Address> findByPersonId(Long personId);
 }
