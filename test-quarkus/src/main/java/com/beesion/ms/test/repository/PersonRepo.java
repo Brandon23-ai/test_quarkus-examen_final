@@ -1,6 +1,6 @@
 package com.beesion.ms.test.repository;
 
-import com.beesion.ms.model.Person;
+import com.beesion.ms.test.model.Person;
 import com.beesion.ms.test.repository.impl.IPersonRepo;
 
 import jakarta.enterprise.context.ApplicationScoped;

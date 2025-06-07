@@ -1,6 +1,6 @@
 package com.beesion.ms.test.repository;
 
-import com.beesion.ms.model.Book;
+import com.beesion.ms.test.model.Book;
 
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;

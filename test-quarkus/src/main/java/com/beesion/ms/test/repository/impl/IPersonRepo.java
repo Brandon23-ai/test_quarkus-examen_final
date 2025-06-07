@@ -1,6 +1,6 @@
 package com.beesion.ms.test.repository.impl;
 
-import com.beesion.ms.model.Person;
+import com.beesion.ms.test.model.Person;
 
 public interface IPersonRepo {
 	

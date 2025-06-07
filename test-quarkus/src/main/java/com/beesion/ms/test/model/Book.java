@@ -1,4 +1,4 @@
-package com.beesion.ms.model;
+package com.beesion.ms.test.model;
 
 import java.time.LocalDate;
 

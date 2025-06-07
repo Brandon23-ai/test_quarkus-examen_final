@@ -2,7 +2,7 @@ package com.beesion.ms.test.resource;
 
 import java.util.List;
 
-import com.beesion.ms.model.Book;
+import com.beesion.ms.test.model.Book;
 import com.beesion.ms.test.dto.BookDto;
 import com.beesion.ms.test.repository.BookRepository;
 

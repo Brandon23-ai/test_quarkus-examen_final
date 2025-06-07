@@ -1,4 +1,4 @@
-package com.beesion.ms.model;
+package com.beesion.ms.test.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

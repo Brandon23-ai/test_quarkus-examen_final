@@ -1,9 +1,7 @@
 package com.beesion.ms.test.service;
 
-import com.beesion.ms.model.Person;
+import com.beesion.ms.test.dto.PersonDto;
 
 public interface IPersonService {
-	
-	public void save(Person per);
-
+    void save(PersonDto dto);//utilizamos PersonDto
 }
